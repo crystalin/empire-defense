@@ -4,7 +4,7 @@ Version 0.11
 
 Tower Defense Game with Multiplayer (up to 8)
 
-![3 players playing tower defense v0.11](doc/empire-defense-v0.11.png)
+<img alt="3 players playing tower defense v0.11" src="doc/empire-defense-v0.11.png" width="600">
 
 **WIP**
 
@@ -27,30 +27,30 @@ Keys :
 * \<F10> : MAIN MENU
 * \<F11> : FullScreen
 
-- \<Page Up>   : Zoom +
-- \<Page Down> : Zoom -
+* \<Page Up>   : Zoom +
+* \<Page Down> : Zoom -
 
 Shortcuts for towers are automatically based on the first letter of the tower :
-- \<A> : Arrow Tower
-- \<S> : Stone Tower (canon)
-- \<L> : Laser Tower
-- \<M> : Missile Tower
+* \<A> : Arrow Tower
+* \<S> : Stone Tower (canon)
+* \<L> : Laser Tower
+* \<M> : Missile Tower
 
-"Fire" : Damage over the time
-"Ice"  : Slow the unit
-"Light": Increase the visibility
-"Earth": Stun the unit
-"Poison": Reduce the armor
+* "Fire" : Damage over the time
+* "Ice"  : Slow the unit
+* "Light": Increase the visibility
+* "Earth": Stun the unit
+* "Poison": Reduce the armor
 
 To evoluate a tower : click on a tower and choose the evolution
 Canon Tower cannot use spells except if the spell is AOE (there is none atm)
 
 There is no End to the game right now :p
 But you can fill the files to increase the content (tell me if you do and balance the game): 
- - "spells.txt" : All the effects
- - "towers.txt" : All the towers
- - "ammo.txt" : Ammo linked to the towers. Many towers can have the same ammo.
- - "unit.txt" : All the unit used by the party (will be load depending of the map later)
+* [spells.txt](bin/ressources/spells.txt) : All the effects
+* [towers.txt](bin/ressources/towers.txt)" : All the towers
+* [ammo.txt](bin/ressources/ammo.txt) : Ammo linked to the towers. Many towers can have the same ammo.
+* [unit.txt](bin/ressources/unit.txt) : All the unit used by the party (will be load depending of the map later)
  
  
  Enjoy the game !
