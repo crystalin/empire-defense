@@ -4,6 +4,7 @@ Version 0.10
 
 Tower Defense Game with Multiplayer (up to 8). Still WIP
 
+![3 players playing tower defense v0.11](doc/empire-defense-v0.11.png)
 
 **Don't share it for the moment!**
 
@@ -55,3 +56,21 @@ But you can fill the files to increase the content (tell me if you do and balanc
  
  Enjoy the game !
  Send comments at empiredefense@crystalin.fr or on http://empire-defense.crystalin.fr
+
+# Old versions
+
+## v0.2
+
+![tower defense v0.2](doc/v0.2.png)
+
+## v0.3
+
+![tower defense v0.3](doc/0.3.png)
+
+## v0.4c
+
+![tower defense v0.4](doc/0.4c.png)
+
+## v0.5c
+
+![tower defense v0.5c](doc/0.5c.png)
