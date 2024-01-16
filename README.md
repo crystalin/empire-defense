@@ -1,35 +1,34 @@
 # Empire Defense
 
-Version 0.10
+Version 0.11
 
-Tower Defense Game with Multiplayer (up to 8). Still WIP
+Tower Defense Game with Multiplayer (up to 8)
 
 ![3 players playing tower defense v0.11](doc/empire-defense-v0.11.png)
 
-**Don't share it for the moment!**
+**WIP**
 
 * The online mode is disabled on purpose.
 * The loading time at the beginning is only for the OGG... I need to multithread this part.
 * The game is very unbalanced now... It is just an alpha version. There is also no ending
 * My best lvl is 15 (after testing it for 10min)
-
-- 3 maps, 1 with a long road
-
-- You can add spells directly to the tower
-- No player spell/skill restriction (You can choose any spell/tower you want)
+* 3 maps, 1 with a long road
+* You can add spells directly to the tower
+* No player spell/skill restriction (You can choose any spell/tower you want)
 
 Keys :
-- Holding \<Shift> : Allow to construct many towers without selecting it between each construction (really useful)
-- \<F1>  : Show Help
-- \<F2>  : Show Grid
-- \<F5>  : Reload Shaders
-- \<F6>  : Reload Colors
-- \<F7>  : Change the player (to simulate Multiplayer mode)
-- \<F10> : MAIN MENU
-- \<F11>  : FullScreen
 
-- <Page Up>   : Zoom +
-- <Page Down> : Zoom -
+* Holding \<Shift> : Allow to construct many towers without selecting it between each construction (really useful)
+* \<F1> : Show Help
+* \<F2> : Show Grid
+* \<F5> : Reload Shaders
+* \<F6> : Reload Colors
+* \<F7> : Change the player (to simulate Multiplayer mode)
+* \<F10> : MAIN MENU
+* \<F11> : FullScreen
+
+- \<Page Up>   : Zoom +
+- \<Page Down> : Zoom -
 
 Shortcuts for towers are automatically based on the first letter of the tower :
 - \<A> : Arrow Tower
