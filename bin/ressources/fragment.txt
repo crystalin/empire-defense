@@ -1,0 +1,24 @@
+uniform sampler2D tex;
+uniform vec2 center;
+uniform float time;
+
+void main (void)
+{
+  float distance = distance(gl_TexCoord[0].st,center);
+  if (distance <= time + 0.05 && distance >= time - 0.05) {
+  
+    float ecart = (distance - time); // value between -0.02 & 0.02
+    
+    float powEcart = 1.0-pow(abs(ecart*20.0),0.4); // value between -1 & 1 (because 0.02 * 50 = 1)
+    
+    float ecartTime = ecart  * powEcart; // value between -0.02 & 0.02
+    
+    vec2 diff = normalize(gl_TexCoord[0].st - center); // get the direction
+    
+    vec2 newTexCoord = gl_TexCoord[0].st + (diff * ecartTime);
+    
+    gl_FragColor = texture2D(tex, newTexCoord.st) * gl_Color;
+  } else {
+    gl_FragColor = texture2D(tex, gl_TexCoord[0].st) * gl_Color;
+  }
+}

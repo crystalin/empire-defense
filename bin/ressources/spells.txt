@@ -1,0 +1,167 @@
+[Fire]
+id = 1
+type = EFFECT_FIRE
+time = 5000
+cost = 5
+value = 10
+
+[Strong Fire]
+id = 2
+parent = 1
+type = EFFECT_FIRE
+time = 5000
+cost = 20
+value = 30
+
+[Living Fire]
+id = 3
+parent = 2
+type = EFFECT_FIRE
+time = 5000
+cost = 30
+value = 50
+
+[Fireko]
+id = 4
+parent = 3
+type = EFFECT_FIRE
+time = 7000
+cost = 80
+value = 100
+
+[Long Fire]
+id = 5
+parent = 3
+type = EFFECT_FIRE
+time = 12000
+cost = 80
+value = 80
+
+[Very Long Fire]
+id = 6
+parent = 5
+type = EFFECT_FIRE
+time = 15000
+cost = 40
+value = 80
+
+[Big Fireko]
+id = 7
+parent = 4
+type = EFFECT_FIRE
+time = 8000
+cost = 80
+value = 150
+
+[Ice]
+id = 8
+type = EFFECT_ICE
+time = 5000
+cost = 5
+value = 20
+
+[Freezing Ice]
+id = 9
+parent= 8
+type = EFFECT_ICE
+time = 5000
+cost = 30
+value = 40
+
+[Stone of Ice]
+id = 10
+parent= 9
+type = EFFECT_ICE
+time = 10000
+cost = 50
+value = 60
+
+[Earth]
+id = 11
+type = EFFECT_EARTH
+time = 300
+cost = 5
+
+[Eartquake]
+id = 12
+parent = 11
+type = EFFECT_EARTH
+time = 400
+cost = 30
+
+[Falling Stones]
+id = 13
+parent = 11
+type = EFFECT_EARTH
+time = 500
+cost = 50
+
+[Poison]
+id = 14
+type = EFFECT_POISON
+time = 5000
+cost = 5
+value = 2
+
+[Snake]
+id = 15
+parent = 14
+type = EFFECT_POISON
+time = 6000
+cost = 15
+value = 7
+
+[Cobra]
+id = 16
+parent = 15
+type = EFFECT_POISON
+time = 8000
+cost = 20
+value = 20
+
+[Viper]
+id = 17
+parent = 16
+type = EFFECT_POISON
+time = 10000
+cost = 20
+value = 30
+
+[Bottle of Poison]
+id = 18
+parent = 17
+type = EFFECT_POISON
+time = 11000
+cost = 50
+value = 50
+
+[Poisonous Apple]
+id = 19
+parent = 18
+type = EFFECT_POISON
+time = 12000
+cost = 100
+value = 100
+
+[Candle Light]
+id = 20
+type = EFFECT_LIGHT
+time = 5000
+cost = 15
+value = 1
+
+[Divine Light]
+id = 21
+parent = 20
+type = EFFECT_LIGHT
+time = 5000
+cost = 50
+value = 2
+
+[Glowing Light]
+id = 22
+parent = 21
+type = EFFECT_LIGHT
+time = 5000
+cost = 200
+value = 3

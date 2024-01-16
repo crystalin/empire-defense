@@ -1,0 +1,377 @@
+[Arrow Tower]
+id = 1
+speed = 2000
+cost = 5
+visibility = 4
+buildingTime = 3
+ammo = 1
+shortcut = a
+
+[Silver Arrow Tower]
+id = 2
+parent = 1
+speed = 1900
+cost = 10
+visibility = 4.7
+buildingTime = 2
+ammo = 2
+
+[Gold Arrow Tower]
+id = 3
+parent = 2
+speed = 1800
+cost = 20
+visibility = 4.9
+buildingTime = 2
+ammo = 3
+
+[Titanium Arrow Tower]
+id = 4
+parent = 3
+speed = 1800
+cost = 40
+visibility = 5.1
+buildingTime = 4
+ammo = 4
+
+[Air Arrow Tower]
+id = 5
+parent = 4
+speed = 1800
+cost = 80
+visibility = 5.1
+buildingTime = 4
+ammo = 5
+
+[Star Arrow Tower]
+id = 6
+parent = 5
+speed = 1700
+cost = 160
+visibility = 5.3
+buildingTime = 3
+ammo = 6
+
+[Wooden Spike Tower]
+id = 7
+parent = 6
+speed = 1500
+cost = 350
+visibility = 6.3
+buildingTime = 11
+ammo = 7
+
+[Ultimate Wooden Spike Tower]
+id = 8
+parent = 7
+speed = 1000
+cost = 800
+visibility = 6.5
+buildingTime = 20
+ammo = 7
+
+[Quick Silver Arrow Tower]
+id = 9
+parent = 1
+speed = 1200
+cost = 30
+visibility = 4.7
+buildingTime = 2
+ammo = 2
+
+[Quick Gold Arrow Tower]
+id = 10
+parent = 9
+speed = 1100
+cost = 60
+visibility = 4.9
+buildingTime = 2
+ammo = 3
+
+[Quick Titanium Arrow Tower]
+id = 11
+parent = 10
+speed = 1100
+cost = 80
+visibility = 5.1
+buildingTime = 4
+ammo = 4
+
+[Quick Air Arrow Tower]
+id = 12
+parent = 11
+speed = 1000
+cost = 100
+visibility = 5.1
+buildingTime = 4
+ammo = 5
+
+[Quick Star Arrow Tower]
+id = 13
+parent = 12
+speed = 900
+cost = 200
+visibility = 5.3
+buildingTime = 3
+ammo = 6
+
+[Quick Wooden Spike Tower]
+id = 14
+parent = 13
+speed = 800
+cost = 450
+visibility = 6.3
+buildingTime = 11
+ammo = 7
+
+[Quick Ultimate Wooden Spike Tower]
+id = 15
+parent = 14
+speed = 500
+cost = 1000
+visibility = 6.5
+buildingTime = 20
+ammo = 7
+
+[Long Silver Arrow Tower]
+id = 16
+parent = 1
+speed = 1900
+cost = 30
+visibility = 6.7
+buildingTime = 2
+ammo = 2
+
+[Long Gold Arrow Tower]
+id = 17
+parent = 16
+speed = 1800
+cost = 60
+visibility = 6.9
+buildingTime = 2
+ammo = 3
+
+[Long Titanium Arrow Tower]
+id = 18
+parent = 17
+speed = 1800
+cost = 80
+visibility = 7.1
+buildingTime = 4
+ammo = 4
+
+[Long Air Arrow Tower]
+id = 19
+parent = 18
+speed = 1800
+cost = 100
+visibility = 7.2
+buildingTime = 4
+ammo = 5
+
+[Long Star Arrow Tower]
+id = 20
+parent = 19
+speed = 1700
+cost = 200
+visibility = 7.6
+buildingTime = 3
+ammo = 6
+
+[Long Wooden Spike Tower]
+id = 21
+parent = 20
+speed = 1500
+cost = 450
+visibility = 8.3
+buildingTime = 11
+ammo = 7
+
+[Long Ultimate Wooden Spike Tower]
+id = 22
+parent = 21
+speed = 1000
+cost = 1000
+visibility = 11.5
+buildingTime = 20
+ammo = 7
+
+[Missile Launcher]
+id = 23
+ammo = 8
+speed = 3500
+cost = 5
+visibility = 5
+buildingTime = 5
+shortcut = m
+
+[Titanium Missile Launcher]
+id = 24
+parent = 23
+ammo = 9
+speed = 3100
+cost = 15
+visibility = 6
+buildingTime = 5
+
+[Uranium Missile Tower]
+id = 25
+parent = 24
+speed = 2500
+cost = 30
+visibility = 5
+buildingTime = 3
+ammo = 10
+
+[Brahmos (Zone) Tower]
+id = 26
+parent = 25
+speed = 2500
+cost = 60
+visibility = 5
+buildingTime = 5
+ammo = 11
+
+[Brahmos II (Zone) Tower]
+id = 27
+parent = 26
+speed = 3000
+cost = 120
+visibility = 7
+buildingTime = 5
+ammo = 12
+
+[Nuclear (Zone) Tower]
+id = 28
+parent = 27
+speed = 3200
+cost = 360
+visibility = 5
+buildingTime = 12
+ammo = 13
+
+[Stone (Zone) Tower]
+id = 29
+speed = 4000
+cost = 20
+visibility = 4
+buildingTime = 2
+ammo = 14
+shortcut = s
+
+[Canon (Zone) Tower]
+id = 30
+parent = 29
+speed = 3200
+cost = 20
+visibility = 4.5
+buildingTime = 4
+ammo = 15
+
+[Spiked Ball (Zone) Tower]
+id = 31
+parent = 30
+speed = 3000
+cost = 50
+visibility = 5
+buildingTime = 6
+ammo = 16
+
+[Burning Ball (Zone) Tower]
+id = 32
+parent = 31
+speed = 3200
+cost = 100
+visibility = 5.2
+buildingTime = 6
+ammo = 17
+
+[Broken Stones (Zone) Tower]
+id = 33
+parent = 32
+speed = 3500
+cost = 180
+visibility = 5.4
+buildingTime = 9
+ammo = 18
+
+[Broken Spikes (Zone) Tower]
+id = 34
+parent = 33
+speed = 3200
+cost = 420
+visibility = 6.2
+buildingTime = 14
+ammo = 19
+
+[Ultimate Canon (Zone) Tower]
+id = 35
+parent = 34
+speed = 2500
+cost = 200
+visibility = 6.4
+buildingTime = 21
+ammo = 19
+
+[Laser Tower]
+id = 36
+speed = 1200
+cost = 30
+visibility = 5
+buildingTime = 6
+ammo = 20
+shortcut = l
+
+[Gamma Tower]
+id = 37
+parent = 36
+speed = 1200
+cost = 50
+visibility = 7
+buildingTime = 4
+ammo = 21
+
+[Ultra Ray Tower]
+id = 38
+parent = 37
+speed = 1100
+cost = 80
+visibility = 6
+buildingTime = 6
+ammo = 22
+
+[Light Ray Tower]
+id = 39
+parent = 38
+speed = 1100
+cost = 100
+visibility = 6
+buildingTime = 8
+ammo = 23
+
+[Glowing Ray Tower]
+id = 40
+parent = 39
+speed = 1000
+cost = 250
+visibility = 7.2
+buildingTime = 12
+ammo = 24
+
+[Destructing Ray Tower]
+id = 41
+parent = 40
+speed = 900
+cost = 500
+visibility = 7.3
+buildingTime = 14
+ammo = 25
+
+[Ultimate Laser Tower]
+id = 42
+parent = 41
+speed = 800
+cost = 300
+visibility = 7.8
+buildingTime = 5
+ammo = 25

@@ -1,0 +1,17 @@
+pour t'aiderp our les include: 
+utilise Empire Defense.vcproj
+dedans il y a des variable comme : 
+AdditionalIncludeDirectories
+avec les liste des repertoires a inclure et ...
+
+bon , deja c'est un model controller view
+(11:40:32) Alan@Toulon: oui
+(11:41:14) Alan@Toulon: sachant que 
+le controller manipule le model et la vue
+la vue lit le model et informe le controller
+le model ne lit/controle personne
+
+Pour faire le make file, je te conseil d'y aller progressif : 
+d'abord essaye de faire le model :
+et dans le model ne fait pas tout d'un coup, essaye d'abord les effets, puis les armes puis ... jusqua terminé par le model.c
+ensuite tu essaye le controller

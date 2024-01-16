@@ -1,0 +1,143 @@
+[Sheep]
+id = 1
+level = 1
+life = 100
+speed = 1.0
+armor = 0
+invisible = false
+
+[Wolf]
+id = 2
+level = 2
+life = 150
+speed = 1.05
+armor = 1
+invisible = false
+
+[Bear]
+id = 3
+level = 3
+life = 250
+speed = 1.1
+armor = 2
+invisible = false
+
+[Warrior]
+id = 4
+level = 4
+life = 400
+speed = 1.15
+armor = 5
+invisible = false
+
+[Knight]
+id = 5
+level = 5
+life = 600
+speed = 1.0
+armor = 7
+invisible = false
+
+[Sorcer]
+id = 6
+level = 6
+life = 800
+speed = 1.3
+armor = 15
+invisible = false
+
+[Golem]
+id = 7
+level = 7
+life = 1300
+speed = 1.3
+armor = 30
+invisible = false
+
+[Ghost]
+id = 8
+level = 8
+life = 1500
+speed = 1.2
+armor = 40
+invisible = false
+
+[Tank]
+id = 9
+level = 9
+life = 2000
+speed = 1.6
+armor = 55
+invisible = false
+
+[Tree]
+id = 10
+level = 10
+life = 3000
+speed = 1.6
+armor = 65
+invisible = false
+
+[Big Warrior]
+id = 11
+level = 11
+life = 4500
+speed = 1.5
+armor = 80
+invisible = false
+
+[Big Tree]
+id = 12
+level = 12
+life = 9500
+speed = 0.7
+armor = 190
+invisible = false
+
+[Big wolf]
+id = 13
+level = 13
+life = 8000
+speed = 1.5
+armor = 90
+invisible = false
+
+[King Alphonse]
+id = 14
+level = 14
+life = 12000
+speed = 1.7
+armor = 100
+invisible = false
+
+[Dranicos]
+id = 15
+level = 15
+life = 17000
+speed = 1.7
+armor = 120
+invisible = false
+
+[Shiva]
+id = 16
+level = 16
+life = 25000
+speed = 1.8
+armor = 120
+invisible = false
+
+[Snake]
+id = 17
+level = 17
+life = 50000
+speed = 1.45
+armor = 100
+invisible = false
+
+[Titan]
+id = 18
+level = 18
+life = 100000
+speed = 0.6
+armor = 400
+invisible = false

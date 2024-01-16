@@ -1,0 +1,17 @@
+uniform sampler2D tex;
+
+void main (void)
+{
+  
+  
+  float distance = distance(gl_TexCoord[0].st,vec2(0.5,0.5));
+  if (distance >= 0.23 && distance <= 0.27) {
+    gl_FragColor = vec4(0.2, 1.0, 0.2, 1.0);
+  } else {
+    if (distance < 0.23) {
+      gl_FragColor = vec4(0.2, 1.0, 0.2, 0.2);
+    } else {
+      discard;
+    }
+  }
+}

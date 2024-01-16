@@ -1,0 +1,20 @@
+uniform sampler2D tex;
+uniform float minAlphaY;
+
+void main (void)
+{
+  vec2 invTex;
+  vec4 invColor;
+  
+  gl_FragColor = texture2D(tex, gl_TexCoord[0].st);
+  invTex.s = 1.0-gl_TexCoord[0].t;
+  invTex.t = gl_TexCoord[0].s;
+  
+  if (gl_FragColor.a <= 0.2 && gl_TexCoord[0].s < 1.0-gl_TexCoord[0].t  && gl_TexCoord[0].t >= minAlphaY) {
+    
+    invColor = texture2D(tex, invTex);
+    if (invColor.a >= 0.0 ) {
+      gl_FragColor = vec4(0.2, 0.2, 0.2, invColor.a/2.0);
+    }
+  }
+}
